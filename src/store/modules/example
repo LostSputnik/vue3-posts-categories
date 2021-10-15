@@ -1,0 +1,28 @@
+const state = {
+    posts: [
+        {
+            title: 'hello', 
+            description: 'okoko',
+            categories: [],
+            showDetails: false,
+            id: 0
+        }, 
+        {
+            title: 'hell', 
+            description: 'lollolol',
+            categories: [],
+            showDetails: false,
+            id: 1
+        }
+    ],
+    categories: [
+        {
+            id: 0,
+            title: 'bal',
+            isEditing: false,
+            tempEdit: ''
+        }
+    ],
+    keyPost: 2,
+    keyCategory: 2
+}
